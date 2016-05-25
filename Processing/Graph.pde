@@ -21,7 +21,8 @@ PFont font;
     stroke(0, 0, 255);
     strokeWeight(3);
     for(int i=0; i<numSample-1; i++){
-      line((i-1) * k, values[i], i*k, values[i+1]);
+      line((i-1) * k, values[i], i*k, values[i+1]); //For MyoWare
+      //point((i-1)*k, values[i]); //For Grove
     }
     stroke(255,0,0);
     line(0, average, 1000, average);

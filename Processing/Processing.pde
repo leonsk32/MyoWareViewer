@@ -25,6 +25,7 @@ void setup(){
   s.bufferUntil('\n');
   println(Serial.list());
   g = new Graph();
+  g.draw();
 }
 
 void draw(){

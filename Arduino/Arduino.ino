@@ -1,4 +1,4 @@
-int analogInput = A0;
+int analogInput = A1;
 int value = 0;
 
 void setup() {
